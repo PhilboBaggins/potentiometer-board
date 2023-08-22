@@ -1,0 +1,121 @@
+{
+  "uuid": "bf024466406092b9a90e1d102f6e9df8",
+  "path": "Offline/Potentiometer%20board",
+  "name": "Potentiometer board",
+  "content": "",
+  "created_at": "2023-08-19 22:55:55",
+  "updated_at": "2023-08-22 19:59:09",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a874ab3e9d0ae478e5454a95ca573e59",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "507140294a06485cbfabe7fbe25729ec": 12,
+        "89026c0e23ca49dcb85d26a1d0805b33": 14,
+        "86d768eadc6c4e5089ba5ff8621de4cd": 2,
+        "53e6a54faff2431db1843020414b758e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          14,
+          "C0805",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "89026c0e23ca49dcb85d26a1d0805b33"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x5",
+          1,
+          "HDR-M-2.54_2X5",
+          "J1",
+          {
+            "BOM_Supplier Part": "C178292",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "bac709540ef743c1b77cca6f50c949b7",
+            "uuid": "53e6a54faff2431db1843020414b758e"
+          }
+        ],
+        [
+          "PTV09A-4025U-B103",
+          12,
+          "PTV09A4020FB103",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12",
+          {
+            "BOM_Manufacturer Part": "PTV09A-4025U-B103",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "PTV09A-4025U-B103-ND",
+            "BOM_Manufacturer": "Bourns Inc.",
+            "puuid": "cafaabb9f5e34f5089b9ca95aea94a9f",
+            "uuid": "507140294a06485cbfabe7fbe25729ec"
+          }
+        ],
+        [
+          "ADS7830IPWT",
+          2,
+          "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL",
+          "U1,U2",
+          {
+            "BOM_Manufacturer Part": "ADS7830IPWT",
+            "puuid": "23b2db629115442e9f5e0bc6ed46a6c2",
+            "uuid": "86d768eadc6c4e5089ba5ff8621de4cd",
+            "BOM_Supplier Part": "C128355",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI(德州仪器)"
+          }
+        ]
+      ],
+      "updateTime": 1692696216,
+      "createTime": 1692449755,
+      "histories": [],
+      "created_at": "2023-08-19 22:55:55",
+      "updated_at": "2023-08-22 19:23:36"
+    },
+    {
+      "uuid": "439b4213ea428d3171774091a8cc43ba",
+      "puuid": "bf024466406092b9a90e1d102f6e9df8",
+      "title": "PCB_Potentiometer board",
+      "filename": "PCB_Potentiometer board.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2ee8eb13a0124a108e622ce40c0c25a8": 14,
+        "bac709540ef743c1b77cca6f50c949b7": 1,
+        "23b2db629115442e9f5e0bc6ed46a6c2": 2,
+        "cafaabb9f5e34f5089b9ca95aea94a9f": 12
+      },
+      "BOM": [],
+      "updateTime": 1692698349,
+      "createTime": 1692450636,
+      "histories": [],
+      "created_at": "2023-08-19 23:10:36",
+      "updated_at": "2023-08-22 19:59:09"
+    }
+  ],
+  "sort": [],
+  "title": "Potentiometer board",
+  "foldername": "Potentiometer board",
+  "schfilename": "Potentiometer board.json",
+  "schfilemtime": 1692696216210
+}
