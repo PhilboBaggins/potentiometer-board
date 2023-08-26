@@ -4,7 +4,7 @@
   "name": "Potentiometer board",
   "content": "",
   "created_at": "2023-08-19 22:55:55",
-  "updated_at": "2023-08-22 19:59:09",
+  "updated_at": "2023-08-24 15:40:20",
   "stick": "",
   "documents": [
     {
@@ -18,7 +18,9 @@
         "507140294a06485cbfabe7fbe25729ec": 12,
         "89026c0e23ca49dcb85d26a1d0805b33": 14,
         "86d768eadc6c4e5089ba5ff8621de4cd": 2,
-        "53e6a54faff2431db1843020414b758e": 1
+        "8f9adbb917b34301ba51590d0cc98060": 1,
+        "bb009484ef804a24ac5d18c54b249586": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1
       },
       "BOM": [
         [
@@ -42,17 +44,31 @@
           }
         ],
         [
-          "HDR-M-2.54_2x5",
+          "HDR-M-2.54_1x2",
           1,
-          "HDR-M-2.54_2X5",
+          "HDR-M-2.54_1X2",
           "J1",
           {
-            "BOM_Supplier Part": "C178292",
+            "BOM_Supplier Part": "C124375",
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "",
             "BOM_Manufacturer Part": "",
-            "puuid": "bac709540ef743c1b77cca6f50c949b7",
-            "uuid": "53e6a54faff2431db1843020414b758e"
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x4",
+          1,
+          "HDR-M-2.54_2X4",
+          "J2",
+          {
+            "BOM_Supplier Part": "C58363",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9b71cab140e4e31a84c15ac14b83555",
+            "uuid": "8f9adbb917b34301ba51590d0cc98060"
           }
         ],
         [
@@ -70,6 +86,19 @@
           }
         ],
         [
+          "10k",
+          1,
+          "R0603",
+          "R13",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
           "ADS7830IPWT",
           2,
           "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL",
@@ -84,11 +113,11 @@
           }
         ]
       ],
-      "updateTime": 1692696216,
+      "updateTime": 1692776545,
       "createTime": 1692449755,
       "histories": [],
       "created_at": "2023-08-19 22:55:55",
-      "updated_at": "2023-08-22 19:23:36"
+      "updated_at": "2023-08-23 17:42:25"
     },
     {
       "uuid": "439b4213ea428d3171774091a8cc43ba",
@@ -100,22 +129,24 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "2ee8eb13a0124a108e622ce40c0c25a8": 14,
-        "bac709540ef743c1b77cca6f50c949b7": 1,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "c9b71cab140e4e31a84c15ac14b83555": 1,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "cafaabb9f5e34f5089b9ca95aea94a9f": 12,
         "23b2db629115442e9f5e0bc6ed46a6c2": 2,
-        "cafaabb9f5e34f5089b9ca95aea94a9f": 12
+        "2ee8eb13a0124a108e622ce40c0c25a8": 14
       },
       "BOM": [],
-      "updateTime": 1692698349,
+      "updateTime": 1692855620,
       "createTime": 1692450636,
       "histories": [],
       "created_at": "2023-08-19 23:10:36",
-      "updated_at": "2023-08-22 19:59:09"
+      "updated_at": "2023-08-24 15:40:20"
     }
   ],
   "sort": [],
   "title": "Potentiometer board",
   "foldername": "Potentiometer board",
   "schfilename": "Potentiometer board.json",
-  "schfilemtime": 1692696216210
+  "schfilemtime": 1692776545742
 }
